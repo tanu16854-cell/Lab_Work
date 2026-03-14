@@ -1,0 +1,27 @@
+import numpy as np
+array1 = np.array([32,56,78,90,89,56,45,12])
+print("First array:")
+print(array1)
+#reshaping
+array2=array1.reshape(4,2)
+print("second array:")
+print(array2)
+#3d array reshape
+array3= array1.reshape(2,2,2)
+print(array3)
+
+array4= array1.reshape(1,2,4)
+print(array3)
+array5= array1.reshape(1,1,8)
+print(array5)
+array6= array1.reshape(1,4,2)
+print(array6)
+array7=array1.reshape(1,8,1)
+print(array7)
+array8= array1.reshape(4,1,2)
+print(array8)
+array9= array1.reshape(2,1,4)
+print(array9)
+average =np.mean(array1)
+print("mean:",average)
+print("standard deviation:",)
